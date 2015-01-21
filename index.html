@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>横屏切换</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <section data-index="1" class="page page1">
+        <div class="inner">
+          <i class="icon-music"></i>
+          <div class="bg">
+          </div>
+        </div>
+        <div class="ft">
+        </div>
+      </section>
+      <section data-index="2" class="page page2 next">
+        <div class="inner">
+          <i class="icon-music"></i>
+          <div class="bg">
+
+          </div>
+        </div>
+        <div class="ft">
+        </div>
+      </section>
+
+      <section data-index="3" class="page page3 next">
+        <div class="inner">
+          <i class="icon-music"></i>
+          <div class="bg">
+
+          </div>
+        </div>
+        <div class="ft">
+        </div>
+      </section>
+    </div>
+
+    <!-- 横屏提示 -->
+    <div class="landscape-wrap hide">
+        <div class="landscape">
+            <div class="tips-arrow"></div>
+            <div class="tips-phone"></div>
+        </div>
+    </div>
+
+    // <script type="text/javascript" src="http://qzonestyle.gtimg.cn/qz-act/js/zepto.min.js"></script>
+    <!-- // <script type="text/javascript" src="http://qzonestyle.gtimg.cn/qz-act/js/zepto.fix.js"></script> -->
+    <!-- // <script type="text/javascript" src="http://qzonestyle.gtimg.cn/qz-act/js/zepto-touch.js"></script> -->
+    <script type="text/javascript" src="landslide.js"></script>
+    <script type="text/javascript">
+      // // 阻止IOS屏
+      // document.addEventListener('touchmove', function(event) {
+      //     if(event.target.type == 'range') return;
+      //     event.preventDefault();
+      // });
+    </script>
+  </body>
+</html>
